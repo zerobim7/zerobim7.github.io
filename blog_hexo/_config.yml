@@ -1,6 +1,7 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+## $ npm install -g hexo-cli
 
 # Site
 title: coding of bottom
@@ -8,7 +9,7 @@ subtitle:
 description: 
 keywords:
 author: Park ChanWon
-language: en
+language: ko
 timezone: Asia/Seoul
 
 # URL
@@ -77,6 +78,7 @@ theme: hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+## $ npm install hexo-deployer-git --save
 deploy:
   type: git
   repo: https://github.com/zerobim7/zerobim7.github.io
