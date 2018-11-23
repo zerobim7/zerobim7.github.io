@@ -2,6 +2,8 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 ## $ npm install -g hexo-cli
+## hexo init <name>
+## hexo new post <name>
 
 # Site
 title: coding of bottom
@@ -9,7 +11,7 @@ subtitle:
 description: 
 keywords:
 author: Park ChanWon
-language: ko
+language: en
 timezone: Asia/Seoul
 
 # URL
