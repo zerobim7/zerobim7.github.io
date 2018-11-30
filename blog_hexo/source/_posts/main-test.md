@@ -8,4 +8,4 @@ categories:
 ---
  ## Test Page
 
- link: [naver](http://www.naver.com)
+ link: [naver](https://www.naver.com)
