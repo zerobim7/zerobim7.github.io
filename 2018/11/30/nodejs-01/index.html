@@ -6,17 +6,24 @@
     
 
     
-    <title>Category: Hexo | coding of bottom</title>
+    <title>Non-Blocking Code | coding of bottom</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta property="og:type" content="website">
-<meta property="og:title" content="coding of bottom">
-<meta property="og:url" content="http://zerobim7.github.io/categories/FrameWork/Hexo/index.html">
+        <meta name="keywords" content="language,nodejs,nonblock">
+    
+    <meta name="description" content="NodeJs 기초 (라고 들은 것들)nodejs를 사용할때에는 기본적으로 non-blocking 코딩을 해야 한다. 알기 쉬운 예시를 찾아보니 내가 청소, 빨래, 설거지를 해야 한다고 할때 blocking은 내가 청소를 하고 빨래를 하고 설거지를 순서대로 끝내는 것이고non-blocking은 청소, 빨래, 설거지 업자에게 전화해서 해달라고 한 후 업자들에게">
+<meta name="keywords" content="language,nodejs,nonblock">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Non-Blocking Code">
+<meta property="og:url" content="http://zerobim7.github.io/2018/11/30/nodejs-01/index.html">
 <meta property="og:site_name" content="coding of bottom">
+<meta property="og:description" content="NodeJs 기초 (라고 들은 것들)nodejs를 사용할때에는 기본적으로 non-blocking 코딩을 해야 한다. 알기 쉬운 예시를 찾아보니 내가 청소, 빨래, 설거지를 해야 한다고 할때 blocking은 내가 청소를 하고 빨래를 하고 설거지를 순서대로 끝내는 것이고non-blocking은 청소, 빨래, 설거지 업자에게 전화해서 해달라고 한 후 업자들에게">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-11-30T05:27:16.129Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="coding of bottom">
+<meta name="twitter:title" content="Non-Blocking Code">
+<meta name="twitter:description" content="NodeJs 기초 (라고 들은 것들)nodejs를 사용할때에는 기본적으로 non-blocking 코딩을 해야 한다. 알기 쉬운 예시를 찾아보니 내가 청소, 빨래, 설거지를 해야 한다고 할때 blocking은 내가 청소를 하고 빨래를 하고 설거지를 순서대로 끝내는 것이고non-blocking은 청소, 빨래, 설거지 업자에게 전화해서 해달라고 한 후 업자들에게">
     
 
     
@@ -125,75 +132,138 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <i class="icon fa fa-folder-open"></i>Category: <em class="page-title-link">Hexo</em>
+    <a class="page-title-link" href="/categories/language/">language</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/language/nodejs/">nodejs</a>
     </h1>
 </div>
 
                         <div class="main-body-content">
-                            
-
-    
-    
+                            <article id="post-nodejs-01" class="article article-single article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
         
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2018" class="archive-year"><i class="icon fa fa-calendar-o"></i>2018</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2018/11/23/main-test/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://zerobim7.github.io/2018/11/23/main-test/">0</span>
-    
-</span>
-
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <div class="category">
-            <a class="article-category-link" href="/categories/FrameWork/">FrameWork</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/FrameWork/Hexo/">Hexo</a>
-            </div>
-            <div class="date"><time datetime="2018-11-23T08:02:01.000Z" itemprop="datePublished">2018-11-23</time></div>
-        </div>
-        
+            <header class="article-header">
+                
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2018/11/23/main-test/">main_test</a>
+        Non-Blocking Code
         </h1>
     
 
-        <p class="article-excerpt">
-            Test Page link: naver
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/11/30/nodejs-01/" class="article-date">
+            <time datetime="2018-11-30T01:32:20.000Z" itemprop="datePublished">2018-11-30</time>
+        </a>
+    </div>
 
-        </p>
+		
+
+                
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/language/">language</a>, <a class="tag-link" href="/tags/nodejs/">nodejs</a>, <a class="tag-link" href="/tags/nonblock/">nonblock</a>
+    </div>
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h2 id="NodeJs-기초-라고-들은-것들"><a href="#NodeJs-기초-라고-들은-것들" class="headerlink" title="NodeJs 기초 (라고 들은 것들)"></a>NodeJs 기초 (라고 들은 것들)</h2><p>nodejs를 사용할때에는 기본적으로 non-blocking 코딩을 해야 한다.</p>
+<p>알기 쉬운 예시를 찾아보니</p>
+<p>내가 청소, 빨래, 설거지를 해야 한다고 할때 blocking은 내가 청소를 하고 빨래를 하고 설거지를 순서대로 끝내는 것이고<br>non-blocking은 청소, 빨래, 설거지 업자에게 전화해서 해달라고 한 후 업자들에게 결과만 듣는 거라고 한다.</p>
+<p>VELOPERT님 강의로 배웠다. 하나씩 정리하면서 느낀건데 이분처럼 쉽게 설명하는 것이 쉽지가 않다.<br>이것도 나 혼자 보려고 하는 거지만 가르치는 것처럼 쓰는 건데, 정말 강의 처럼 설명 하려면…<br>정말 감사하신 분이다.</p>
+<p><a href="https://velopert.com/255" target="_blank" rel="noopener">VELOPERT.LOG</a></p>
+<h3 id="Blocking-Code-일반-코딩할때-쓰이는-순서가-정해진-코딩"><a href="#Blocking-Code-일반-코딩할때-쓰이는-순서가-정해진-코딩" class="headerlink" title="Blocking Code (일반 코딩할때 쓰이는 순서가 정해진 코딩)"></a>Blocking Code (일반 코딩할때 쓰이는 순서가 정해진 코딩)</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var fs = require(<span class="string">"fs"</span>);</span><br><span class="line">var data = fs.readFileSync(<span class="string">'input.txt'</span>);</span><br><span class="line">console.log(data.toString());</span><br><span class="line">console.log(<span class="string">"program has ended"</span>);</span><br></pre></td></tr></table></figure>
+<p>참고로 사용된 input.txt의 내용은</p>
+<p>Let’s understand what is a callback function.<br>What the HELL is it?</p>
+<p>이다.</p>
+<h3 id="Non-Blocking-Code"><a href="#Non-Blocking-Code" class="headerlink" title="Non-Blocking Code"></a>Non-Blocking Code</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var fs = require(<span class="string">"fs"</span>);</span><br><span class="line"></span><br><span class="line">fs.readFile(<span class="string">'input.txt'</span>, <span class="keyword">function</span> (err, data)&#123;</span><br><span class="line">    <span class="keyword">if</span>(err) <span class="built_in">return</span> console.error(err);</span><br><span class="line">    console.log(data.toString());</span><br><span class="line">&#125;);</span><br><span class="line">console.log(<span class="string">"Program has ended"</span>);</span><br></pre></td></tr></table></figure>
+<p>위 두개를 실행하면 결과가 다르게 나오는데 이는 fs.readFile을 하는 속도보다.<br>console.log(“Program has ended”);<br>가 찍히는 속도가 빠르기 때문이다. </p>
+<p>처음의 예시로 설명하면 청소업자한테 먼저 전화를 하고 빨래업자에게 전화를 해서 일을 맡겼는데 빨래 업자가 더 일을 빨리 끝낸 것</p>
+<p>만약 console.log가 아닌 다른 처리가 속도가 느린 동작을 했다면<br>console.log(data.toString());<br>쪽이 먼저 출력 되었을 수도 있다.</p>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://zerobim7.github.io/2018/11/30/nodejs-01/" data-id="cjp3kp3hi0000o4uuovsgmr2o" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
     </div>
 </article>
+
+    <section id="comments">
     
-        </div>
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
     
-
-
-    </div></section>
-
+    </section>
 
 
 
@@ -255,6 +325,29 @@
             
         </ul>
     </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/2018/11/30/nodejs-02-callback/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            Nodejs_CallBack Function
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
+    
+        <a href="/2018/11/23/main-test/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">main_test</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
     
     <div class="widgets-container">
         
@@ -443,11 +536,13 @@
     var disqus_shortname = 'zerobim7';
     
     
+    var disqus_url = 'http://zerobim7.github.io/2018/11/30/nodejs-01/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
